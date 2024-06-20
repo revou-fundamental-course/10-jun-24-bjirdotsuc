@@ -24,3 +24,4 @@ document.getElementById('temperature-form').addEventListener('submit', function(
     document.getElementById('result').innerText = result;
     document.getElementById('explanation').innerText = explanation;
 });
+console.log("Path background image:", document.body.style.backgroundImage);
