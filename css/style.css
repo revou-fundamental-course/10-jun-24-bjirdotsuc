@@ -11,17 +11,12 @@ body {
 }
 
 .container {
-    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 300px;
-    transition: background 0.5s ease; /* Smooth transition for background */
-}
-
-.container:hover {
-    background: rgba(255, 255, 255, 0.95); /* Slightly less transparent on hover */
 }
 
 h1 {
